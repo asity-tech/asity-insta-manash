@@ -63,7 +63,6 @@
 }
 .form-control {
   border-radius: 0.8rem;
-  color: #ebebeb;
   font-size: 14px;
 }
 a {
@@ -86,6 +85,22 @@ a {
   background-color: #fff;
   padding: 30px;
   font-family: "Poppins", sans-serif;
+}
+.contentBody1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  width: 40%;
+}
+
+.contentBody1 p {
+  color: #909090;
+  font-size: 12px;
 }
 
 .contentBody p {
