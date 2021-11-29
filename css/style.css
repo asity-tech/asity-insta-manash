@@ -6,6 +6,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+.test {
+  position: fixed;
+  width: 60%;
+  height: auto;
+  padding-bottom: auto;
+}
+
 .img {
   height: 150px;
 }
@@ -21,6 +28,8 @@
 }
 .right1 {
   height: 100vh;
+  margin-left: 50%;
+  width: 50%;
   background-color: #e7eaf6;
   justify-content: center;
   align-items: center;
@@ -28,6 +37,8 @@
   font-family: "Poppins", sans-serif;
 }
 .right2 {
+  margin-left: 60%;
+  width: 50%;
   height: auto;
   background-color: #e7eaf6;
   justify-content: center;
@@ -108,6 +119,18 @@ a {
   font-size: 14px;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .test {
+    width: 50%;
+    padding-bottom: 65%;
+  }
+  .right2 {
+    margin-left: 50%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .left h1 {
     font-size: 45px;
@@ -118,4 +141,20 @@ a {
   /* .left {
     font-size: 12px;
   } */
+
+  .test {
+    width: 100%;
+    position: static;
+  }
+  .right1 {
+    height: auto;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .right2 {
+    margin-left: 0%;
+    width: 100%;
+    height: auto;
+  }
 }
